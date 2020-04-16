@@ -1,0 +1,17 @@
+{
+    "name": "springer-scraper",
+    "version": "1.0.0",
+    "description": "Scrape Springer books free to access",
+    "private": true,
+    "main": "index.js",
+    "scripts": {
+        "scrape": "node scrape.js"
+    },
+    "keywords": [],
+    "author": "Dylson Valente Neto <ama@n370.info> (https://n370.info/)",
+    "license": "UNLICENSED",
+    "dependencies": {
+        "csv-stringify": "5.3.6",
+        "puppeteer": "2.1.1"
+    }
+}
